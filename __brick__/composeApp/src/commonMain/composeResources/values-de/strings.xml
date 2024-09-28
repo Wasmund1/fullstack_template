@@ -1,0 +1,8 @@
+<resources>
+    <string name="button_login">Einloggen</string>
+    <string name="button_signup">Registrieren</string>
+    <string name="label_password">Passwort</string>
+    <string name="label_user_name">Nutzername</string>
+    <string name="label_email">Email</string>
+    <string name="common_of">von</string>
+</resources>

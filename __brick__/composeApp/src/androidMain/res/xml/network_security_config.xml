@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!-- Allow HTTP connections to the specified IP (e.g., 10.0.2.2 for Android emulator) -->
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <!-- Allow HTTP connections to localhost or 0.0.0.0 (for other environments) -->
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">0.0.0.0</domain>
+        <domain includeSubdomains="true">192.168.0.171
+        </domain>
+    </domain-config>
+</network-security-config>
